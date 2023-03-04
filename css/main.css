@@ -1,0 +1,492 @@
+/*====================== Site fonts ======================*/
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/Orbitron-Black.woff2') format('woff2'),
+  url('../fonts/Orbitron-Black.woff') format('woff'),
+  url('../fonts/Orbitron-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/Orbitron-Medium.woff2') format('woff2'),
+  url('../fonts/Orbitron-Medium.woff') format('woff'),
+  url('../fonts/Orbitron-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/Orbitron-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Orbitron-ExtraBold.woff') format('woff'),
+  url('../fonts/Orbitron-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/Orbitron-Bold.woff2') format('woff2'),
+  url('../fonts/Orbitron-Bold.woff') format('woff'),
+  url('../fonts/Orbitron-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/Orbitron-Regular.woff2') format('woff2'),
+  url('../fonts/Orbitron-Regular.woff') format('woff'),
+  url('../fonts/Orbitron-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/Orbitron-SemiBold.woff2') format('woff2'),
+  url('../fonts/Orbitron-SemiBold.woff') format('woff'),
+  url('../fonts/Orbitron-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/FiraCode-Bold.woff2') format('woff2'),
+  url('../fonts/FiraCode-Bold.woff') format('woff'),
+  url('../fonts/FiraCode-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/FiraCode-Light.woff2') format('woff2'),
+  url('../fonts/FiraCode-Light.woff') format('woff'),
+  url('../fonts/FiraCode-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/FiraCode-Medium.woff2') format('woff2'),
+  url('../fonts/FiraCode-Medium.woff') format('woff'),
+  url('../fonts/FiraCode-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/FiraCode-Regular.woff2') format('woff2'),
+  url('../fonts/FiraCode-Regular.woff') format('woff'),
+  url('../fonts/FiraCode-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/FiraCode-SemiBold.woff2') format('woff2'),
+  url('../fonts/FiraCode-SemiBold.woff') format('woff'),
+  url('../fonts/FiraCode-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+  url('../fonts/Montserrat-Black.woff') format('woff'),
+  url('../fonts/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
+  url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+  url('../fonts/Montserrat-Bold.woff') format('woff'),
+  url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+  url('../fonts/Montserrat-ExtraLight.woff') format('woff'),
+  url('../fonts/Montserrat-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+  url('../fonts/Montserrat-Light.woff') format('woff'),
+  url('../fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+  url('../fonts/Montserrat-Medium.woff') format('woff'),
+  url('../fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+  url('../fonts/Montserrat-Regular.woff') format('woff'),
+  url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+  url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+  url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+  url('../fonts/Montserrat-Thin.woff') format('woff'),
+  url('../fonts/Montserrat-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*====================== Site roots ======================*/
+
+:root{
+  --site-color: #002547;
+  --site-color2: #fff;
+  --site-color3: #0ef;
+}
+
+.dark-mode{
+  --site-color: #e2e2e2;
+  --site-color2: #073661;
+  --site-color3: #0ef;
+}
+
+/*====================== General Css ======================*/
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--site-color);
+  font-size: 16px;
+}
+
+img {
+  display: inline-block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.fa-solid{
+  transition: 1s;
+  color: var(--site-color2);
+}
+
+.fa-solid:hover{
+  transition: 1s;
+  color: var(--site-color3);
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1440px;
+}
+
+.site-btn{
+  transition: 1s;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  font-style: normal;
+  border-radius: 20px;
+  font-family: 'Montserrat';
+  color: var(--site-color2);
+  border: 2px solid var(--site-color2);
+  background-color: var(--site-color2);
+}
+
+.site-btn:hover{
+  transition: 1s;
+  color: var(--site-color2);
+  border: 2px solid var(--site-color2);
+  background-color: var(--site-color3);
+}
+
+/*====================== Header section started ======================*/
+
+.header__restangle{
+  position: absolute;
+  width: 1013px;
+  height: 1013px;
+  left: -336px;
+  top: -305px;
+  z-index: -100;
+  background: var(--site-color);
+  filter: blur(282px);
+}
+
+.header__nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 1);
+  justify-content: space-around;
+}
+
+.header-logo__img {
+  width: 150px;
+  height: 50px;
+  padding: 10px 0px 0px 0px;
+}
+
+.header__menu {
+  display: flex;
+  padding: 0px 0px 0px 200px;
+}
+
+.header-menu__item {
+  padding: 15px 50px 0px 0px;
+}
+
+.header-menu__link {
+  padding-left: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: var(--site-color2);
+}
+
+.header-menu__link:hover{
+  transition: 1s;
+  color: var(--site-color3);
+}
+
+.header__menu-btn {
+  background: transparent;
+  padding: 0px 25px 0px 25px;
+}
+
+.header__menu-btn:hover{
+  background: transparent;
+  color: var(--site-color3);
+  border: 2px solid var(--site-color3);
+}
+
+.day-night__icons i{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  transition: 1s;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid var(--site-color2);
+  color: var(--site-color2);
+}
+
+.day-night__icons i:hover{
+  border: 2px solid var(--site-color3);
+  color: var(--site-color3);
+}
+
+/* Header Hero Started */
+
+.header__hero-container {
+  display: flex;
+  height: 100vh;
+  padding: 200px 0px 0px 100px;
+  background-repeat: no-repeat;
+  background-position: 650px 60px;
+  background-image: url(../img/header-hero-bg-img.svg);
+}
+
+.header__hero-texts{
+  padding-left: px;
+}
+
+.header__title-el{
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--site-color3);
+}
+
+.header__hero-title {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 75px;
+  letter-spacing: 0.1em;
+  color: var(--site-color2);
+}
+
+.header__hero-title span{
+  padding-left: 80px;
+}
+
+.header__hero-jobs span{
+  position: static;
+  z-index: 10;
+  padding-right: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 3px;
+  font-family: 'Fira Code';
+  color: var(--site-color2);
+}
+
+.header__hero-jobs{
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 75px;
+  letter-spacing: 1px;
+  color: var(--site-color3);
+}
+
+.header__hero-disc {
+  width: 600px;
+  height: 50px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--site-color3);
+}
+
+.hero__social-media a{
+  margin: 30px 15px 30px 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transition: 1s;
+  background: transparent;
+  border: 2px solid #0ef;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0ef;
+}
+
+/* Header Hero end */
+
+
+
+
+
+
+
+
+
+
+/*====================== Header section end ======================*/
+/*====================== Main section started ======================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================== Main section end ======================*/
