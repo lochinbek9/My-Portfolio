@@ -211,7 +211,7 @@
 .dark-mode{
   --site-color: #e2e2e2;
   --site-color2: #073661;
-  --site-color3: #0ef;
+  --site-color3: #073661;
 }
 
 /*====================== General Css ======================*/
@@ -458,9 +458,6 @@ img {
 }
 
 /* Header Hero end */
-
-
-
 
 
 

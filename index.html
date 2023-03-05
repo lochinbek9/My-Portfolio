@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--======================== Style site links ========================-->
   <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/aos.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/responsive.css">
   <!--======================== FontAvesome links ========================-->
@@ -25,10 +26,10 @@
     <div class="container header__container">
       <div class="header__restangle"></div>
       <nav class="header__nav">
-        <a href="/index.html" class="header__logo">
+        <a href="/index.html" class="header__logo" data-aos="fade-right" data-aos-duration="2000">
           <img src="./img/header-logo.svg" alt="site-logo" class="header-logo__img" width="150" height="50" />
         </a>
-        <ul class="header__menu">
+        <ul class="header__menu" data-aos="fade-left" data-aos-duration="2000">
           <li class="header-menu__item">
             <i class="fa-solid fa-house"></i>
             <a href="#" class="header-menu__link">Home</a>
@@ -54,7 +55,7 @@
     </div>
     <div class="header__hero">
       <div class="container header__hero-container">
-        <div class="header__hero-texts">
+        <div class="header__hero-texts" data-aos="zoom-in-right" data-aos-duration="2000">
           <span class="header__title-el">Hi all. My name is </span>
           <h1 class="header__hero-title">Matbayev <br> <span>Timurkho'ja</span></h1>
           <h2 class="header__hero-jobs">I'm a <span class="typing"></span></h2>
@@ -75,12 +76,14 @@
   </header>
   <!-- Site-header-end -->
   <main>
-    <section></section>
+    <section>
+    </section>
   </main>
 
   <!--======================= Site Js =================== -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
     referrerpolicy="no-referrer"></script>
+  <script src="./javascript/aos.js"></script>
   <script src="./javascript/script.js"></script>
 </body>
 

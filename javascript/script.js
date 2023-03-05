@@ -1,5 +1,9 @@
 "use strict"
 
+//=================== AOS Scroll animation ===================
+
+AOS.init();
+
 //================= Theme Light and Dark mode Site =================
 
 const dayNight = document.querySelector(".day-night__icons");
@@ -12,7 +16,8 @@ dayNight.addEventListener("click", () => {
 //======================== Typing Animation ========================
 
 var typed = new Typed(".typing", {
-  strings: ["", "", "Web Desiginer", "Web Developer", "Graphic Designer", "YouTuber", "", ""],
-  typeSpeed: 100,
+  strings: ["", "Web Desiginer", "Graphic Designer", "Web Developer", "YouTuber"],
+  typeSpeed: 90,
+  Backspeed: 50,
   loop: true
 })
