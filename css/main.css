@@ -246,6 +246,10 @@ img {
   padding: 0;
 }
 
+.hidden{
+  display: none;
+}
+
 ::-webkit-scrollbar{
   display: none;
 }
@@ -253,11 +257,6 @@ img {
 .fa-solid{
   transition: 1s;
   color: var(--site-color2);
-}
-
-.fa-solid:hover{
-  transition: 1s;
-  color: var(--site-color3);
 }
 
 .container{
@@ -306,8 +305,15 @@ img {
   width: 100%;
   height: 60px;
   display: flex;
+  z-index: 999;
+  transition: 1s;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 1);
   justify-content: space-around;
+}
+
+.sticky{
+  transition: 0.5s;
+  background-color: #091921;
 }
 
 .header-logo__img {
@@ -318,7 +324,7 @@ img {
 
 .header__menu {
   display: flex;
-  padding: 0px 0px 0px 200px;
+  padding: 0px 0px 0px 150px;
 }
 
 .header-menu__item {
@@ -341,6 +347,11 @@ img {
   color: var(--site-color3);
 }
 
+.icon:hover{
+  transition: 1s;
+  color: var(--site-color3);
+}
+
 .header__menu-btn {
   background: transparent;
   padding: 0px 25px 0px 25px;
@@ -351,6 +362,101 @@ img {
   color: var(--site-color3);
   border: 2px solid var(--site-color3);
 }
+
+/*====================== Log In Btn Modal Started  ======================*/
+
+.registrationForms__modal{
+  position: relative;
+  top: -120px;
+  left: -260px;
+}
+
+.head__login{
+  position: relative;
+  left: 420px;
+  width: 500px;
+  padding: 60px;
+  display: flex;
+  border-radius: 30px;
+  flex-direction: column;
+  gap: 30px;
+  backdrop-filter: blur(25px);
+  border: 3px solid var(--site-color3);
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.head__login-icon{
+  position: relative;
+  top: -30px;
+  padding-left: 380px;
+  font-size: 2em;
+}
+
+.heade__login-title{
+  position: relative;
+  top: -50px;
+  font-family: 'Fira Code';
+  font-weight: 600;
+  font-size: 2.5rem;
+  font-style: normal;
+  text-align: center;
+  color: var(--site-color3);
+}
+
+.inputBox{
+  position: relative;
+  top: -30px;
+}
+
+.inputBox input{
+  position: relative;
+  width: 100%;
+  outline: none;
+  border: 2.5px solid var(--site-color3);
+  padding: 15px 20px;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  background: var(--site-color2);
+}
+
+.inputBox ::placeholder{
+  color: var(--site-color3);
+}
+
+#login__main-btn{
+  transition: 0.3s;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  font-style: normal;
+  font-family: 'Montserrat';
+  color: var(--site-color3);
+}
+
+#login__main-btn:active{
+  transition: 0.3s;
+  background: #dadada;
+}
+
+.footer__login-link{
+  font-weight: 600;
+  font-size: 1em;
+  font-family: 'Fira Code';
+  color: var(--site-color3);
+}
+
+.footer__login-link:nth-child(2){
+  padding-left: 150px;
+}
+
+.footer__login-link:hover{  
+  font-weight: bold;
+}
+
+/*====================== Log In Btn Modal End  ======================*/
+
+/*====================== Day and Night Theme Started  ======================*/
 
 .day-night__icons i{
   position: relative;
@@ -371,19 +477,21 @@ img {
   color: var(--site-color3);
 }
 
-/* Header Hero Started */
+/*====================== Day and Night Theme End  ======================*/
+
+/*================= Header Hero Started =================*/
 
 .header__hero-container {
   display: flex;
   height: 100vh;
-  padding: 200px 0px 0px 100px;
+  padding: 200px 0px 0px 0px;
   background-repeat: no-repeat;
   background-position: 650px 60px;
   background-image: url(../img/header-hero-bg-img.svg);
 }
 
 .header__hero-texts{
-  padding-left: px;
+  padding-left: 100px;
 }
 
 .header__title-el{
@@ -459,24 +567,240 @@ img {
 
 /* Header Hero end */
 
-
-
-
-
-
-
 /*====================== Header section end ======================*/
 /*====================== Main section started ======================*/
 
+.main__container{
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: 2000px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/site-main-bg-img.svg);
+}
 
+/* About Section  */
 
+.about__container{
+  position: relative;
+  top: 300px;
+}
 
+.about__section-title{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 75px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--site-color2);
+}
 
+.about__section-title::after {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 4.3rem;
+  background-color: var(--site-color3);
+}
 
+.about__container-elements{
+  display: flex;
+  justify-content: space-around;
+}
 
+.about__elements-img{
+  width: 400px;
+  height: 418px;
+}
 
+.about__elements-disc{
+  padding-top: 100px;
+}
 
+.about__disc-title{
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 75px;
+  letter-spacing: 3px;
+  color: var(--site-color3);
+}
 
+.about__disc-text{
+  width: 450px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--site-color2);
+}
+
+/* About Section End*/
+
+/* Skils Section */
+
+.skils__container{
+  position: relative;
+  top: 500px;
+}
+
+.skils__section-title{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 75px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: var(--site-color2);
+}
+
+.skils__section-title::after {
+  position: absolute;
+  content: "";
+  width: 18rem;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 4.7rem;
+  background-color: var(--site-color3);
+}
+
+.skils__container-elements{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.skils__element-disc{
+  padding-top: 100px;
+}
+
+.skils__disc-title{
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 75px;
+  letter-spacing: 3px;
+  color: var(--site-color3);
+}
+
+.skils__disc-text{
+  width: 500px;
+  padding-bottom: 50px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--site-color2);
+}
+
+/* Skils Bar  */
+
+.skillsData {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding: 20px 40px;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 1);
+
+}
+
+.skills__name-element {
+  display: flex;
+  align-items: center;
+}
+
+.skills__name-element i{
+  font-size: 1rem;
+  margin-right: 1rem;
+  color: var(--site-color3);
+}
+
+.skill__title{
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--site-color3);
+}
+
+.skills__percent{
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--site-color3);
+}
+
+.skill__percent-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--site-color3);
+  height: 0.25rem;
+  border-radius: 0.5rem;
+  z-index: -10;
+}
+
+.skill__language-html {
+  width: 95%;
+}
+
+.skill__language-css {
+  width: 85%;
+}
+
+.skill__language-js {
+  width: 25%;
+}
+
+.skill__language-ui {
+  width: 60%;
+}
+
+/* Skils Bar End */
+
+.skils__section-img{
+  position: relative;
+  top: 300px;
+  animation: floatImage 4s ease-in-out infinite;
+  animation-delay: 3s;
+}
+
+@keyframes floatImage{
+  0%{
+    transform: translateY(0);
+  }
+
+  50%{
+    transform: translateY(-100px);
+  } 
+
+  100%{
+    transform: translateY(0);
+  }
+}
+
+/* Skils Section End */
 
 
 

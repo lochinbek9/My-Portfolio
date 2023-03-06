@@ -31,16 +31,20 @@
         </a>
         <ul class="header__menu" data-aos="fade-left" data-aos-duration="2000">
           <li class="header-menu__item">
-            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-house icon"></i>
             <a href="#" class="header-menu__link">Home</a>
           </li>
           <li class="header-menu__item">
-            <i class="fa-solid fa-gear"></i>
-            <a href="#" class="header-menu__link">Technologies</a>
+            <i class="fa-solid fa-user icon"></i>
+            <a href="#aboutMe" class="header-menu__link">About Me</a>
           </li>
           <li class="header-menu__item">
-            <i class="fa-solid fa-user"></i>
-            <a href="#" class="header-menu__link">About Me</a>
+            <i class="fa-solid fa-gear icon"></i>
+            <a href="#technologies" class="header-menu__link">Technologies</a>
+          </li>
+          <li class="header-menu__item">
+            <i class="fa-solid fa-briefcase icon"></i>
+            <a href="#" class="header-menu__link">My Works</a>
           </li>
           <li class="header-menu__item">
             <button class="site-btn header__menu-btn">Log in</button>
@@ -71,14 +75,132 @@
             </a>
           </div>
         </div>
+        <!-- Modal registrationForms started  -->
+        <div class="registrationForms__modal hidden">
+          <div class="head__login">
+            <div class="head__login-icon">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <h2 class="heade__login-title">Sign In</h2>
+            <div class="inputBox">
+              <input type="text" placeholder="Username">
+            </div>
+            <div class="inputBox">
+              <input type="password" placeholder="Password">
+            </div>
+            <div class="inputBox">
+              <input type="submit" value="Login" id="login__main-btn">
+            </div>
+            <div class="footer__login">
+              <a href="#" class="footer__login-link">Forget password</a>
+              <a href="#" class="footer__login-link">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <!-- Modal registrationForms end  -->
       </div>
     </div>
   </header>
-  <!-- Site-header-end -->
-  <main>
-    <section>
-    </section>
+  <!--============================ Site header end ============================-->
+
+  <!--========================== Site Main Started  ==========================-->
+
+  <!-- About Section  -->
+
+  <main class="main__site">
+    <div class="container main__container">
+      <section class="about__section" id="aboutMe">
+        <div class="container about__container">
+          <h2 class="about__section-title" data-aos="fade-down">About</h2>
+          <div class="about__container-elements">
+            <img src="./img/about-section-img.svg" alt="About__section-img" class="about__elements-img" width="400"
+              height="418" data-aos="fade-right">
+            <div class="about__elements-disc" data-aos="fade-left">
+              <h3 class="about__disc-title">I'm Matbayev Timurkho'ja</h3>
+              <p class="about__disc-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempora mollitia expedita molestiae consectetur sint
+                doloremque cupiditate ducimus ullam qui? Quo illo repellat
+                incidunt dolor aliquam impedit consectetur, aspernatur
+                neque repellendus.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section End -->
+      <!-- Skils Section  -->
+
+      <section class="skils__section" id="technologies">
+        <div class="container skils__container">
+          <h2 class="skils__section-title" data-aos="fade-down">Technologies</h2>
+          <div class="skils__container-elements">
+            <div class="skils__element-disc">
+              <h3 class="skils__disc-title" data-aos="fade-right">Professional Skills</h3>
+              <p class="skils__disc-text" data-aos="fade-right">
+                Without sharpen your weapon; standing on the battlefield would not increase your chance of winning
+              </p>
+              <!-- Skils Html -->
+              <div class="skillsData" data-aos="fade-right" data-aos-delay="200">
+                <div class="skills__name-element">
+                  <i class="fa-brands fa-html5"></i>
+                  <h4 class="skill__title">Html5</h4>
+                </div>
+
+                <div><span class="skills__percent">95%</span></div>
+
+                <div class="skill__percent-bar skill__language-html"></div>
+              </div>
+
+              <!-- SKILLS Css -->
+              <div class="skillsData" data-aos="fade-right" data-aos-delay="250">
+                <div class="skills__name-element">
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <h4 class="skill__title">CSS3</h4>
+                </div>
+
+                <div><span class="skills__percent">85%</span></div>
+
+                <div class="skill__percent-bar skill__language-css"></div>
+              </div>
+
+              <!-- SKILLS JS -->
+              <div class="skillsData" data-aos="fade-right" data-aos-delay="250">
+                <div class="skills__name-element">
+                  <i class="fa-brands fa-js"></i>
+                  <h4 class="skill__title">JS</h4>
+                </div>
+
+                <div><span class="skills__percent">25%</span></div>
+
+                <div class="skill__percent-bar skill__language-js"></div>
+              </div>
+
+              <!-- SKILLS UI/UX -->
+              <div class="skillsData" data-aos="fade-right" data-aos-delay="250">
+                <div class="skills__name-element">
+                  <i class="fa-sharp fa-solid fa-paintbrush"></i>
+                  <h4 class="skill__title">UI / UX</h4>
+                </div>
+
+                <div><span class="skills__percent">60%</span></div>
+
+                <div class="skill__percent-bar skill__language-ui"></div>
+              </div>
+            </div>
+            <div class="skill__img" data-aos="fade-left">
+              <img src="./img/skils-bg-img.svg" alt="skils__section-img" class="skils__section-img">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skils Section End -->
+    </div>
   </main>
+
+  <!--========================== Site Main End  ==========================-->
+
 
   <!--======================= Site Js =================== -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
