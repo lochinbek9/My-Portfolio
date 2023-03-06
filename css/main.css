@@ -483,8 +483,7 @@ img {
 
 .header__hero-container {
   display: flex;
-  height: 100vh;
-  padding: 200px 0px 0px 0px;
+  padding: 200px 0px 150px 0px;
   background-repeat: no-repeat;
   background-position: 650px 60px;
   background-image: url(../img/header-hero-bg-img.svg);
@@ -584,7 +583,7 @@ img {
 
 .about__container{
   position: relative;
-  top: 300px;
+  top: 100px;
 }
 
 .about__section-title{
@@ -781,7 +780,7 @@ img {
 
 .skils__section-img{
   position: relative;
-  top: 300px;
+  top: 200px;
   animation: floatImage 4s ease-in-out infinite;
   animation-delay: 3s;
 }
@@ -792,7 +791,7 @@ img {
   }
 
   50%{
-    transform: translateY(-100px);
+    transform: translateY(-130px);
   } 
 
   100%{
